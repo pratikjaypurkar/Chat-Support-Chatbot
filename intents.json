@@ -1,0 +1,235 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["My pleasure", "You're Welcome"]
+        },
+        {"tag": "Paid",
+         "patterns": ["Is it paid or free internship ?","Is it a free internship?","Internship is paid or unpaid","Is this paid or unpaid...?","This is paid internship or not?","Is it Internship Free?","Is it free internship?","This is paid internship","Is it paid?!"],
+         "responses": ["The internship is unpaid."]
+        } ,
+        {"tag": "Certificate",
+         "patterns": ["Will I be getting a certificate?", "If I complete my internship will I get the certificate?"],
+         "responses": ["Yes, you will receive a certificate after completing the internship."]
+        },
+        {"tag": "Stipend",
+         "patterns": ["Stipend?","Will there be a stipend?"],
+         "responses": ["There is no stipend is provided."]
+        },
+        {"tag": "Mode",
+         "patterns": ["Is the internship online ?","Is the internship offline or online?","Can I work remotely during the internship?"],
+         "responses": ["Yes, All our internships are conducted in Virtual mode (Online)."]
+        },
+        {"tag": "Late",
+         "patterns": ["I am late will i be still able to do the internship."],
+         "responses": ["Contact us for late joining options. At help@byteuprise.com"]
+        },
+        {"tag": "Start",
+         "patterns": ["When does the internship start?","When will internship start?","When will it start?","Starting Date?"],
+         "responses": ["Each batch starts at the start or mid of the month and ends on start or mid of the next month respectively."]
+        },
+        {"tag": "Fees",
+         "patterns": ["Is there any fee for the internship?","Should we have to pay any fee for this internship?","What is the fee for the certification?"],
+         "responses": ["The internship is completely free. However, certification fees of Rs 89 have to be paid to cover the documentation expenses."]
+        },
+        {"tag": "Duration",
+         "patterns": ["What is the duration of the internship?"],
+         "responses": ["All our internships are for a period of 1 month only."]
+        },
+        {"tag": "Fixed",
+         "patterns": ["IS IT A SELF PACED INTERNSHIP?"],
+         "responses": ["No, the internship is scheduled with set start and end dates."]
+        },
+        {"tag": "Project",
+         "patterns": ["Is it a team based projects or individual?"],
+         "responses": ["Projects can be team-based or individual."]
+        },
+        {"tag": "Eligiblity",
+         "patterns": ["My passing year is 2021, can I join the internship?"],
+         "responses": ["Yes, you can join the internship."]
+        },
+        {"tag": "Job",
+         "patterns": ["After completing the internship, is there any chance of getting job ?","I need career guidance"],
+         "responses": ["We offer career guidance sessions as part of the internship. Job offers depend on performance and availability."]
+        },
+        {"tag": "PPO",
+         "patterns": ["There is any chance of full-time Offer (PPO)?","Is there a possibility of getting a full-time job after the internship?"],
+         "responses": ["Yes, high-performing interns may be offered full-time positions based on the availability and company requirements."]
+        },
+        {"tag": "web dev",
+         "patterns": ["What we have to do in the Web Development internship?"],
+         "responses": ["You will work on web development projects"]
+        },
+        {"tag": "Device",
+         "patterns": [" Is it ok if I join internship with mobile phone, because I doesn't have laptop.","What tools or software will I need for the internship?"],
+         "responses": ["Interns will need a laptop /PC with internet access and may use tools such as GitHub, Slack, Zoom, and others relevant to their tasks."]
+        },
+        {"tag": "Prerequisite",
+         "patterns": ["Any prerequisite skills for the internship?","Is previous experience required for the internship?","Are there any prerequisites for joining ByteUprise's internship program?"],
+         "responses": ["No experience is required. Basic knowledge in relevant field is helpful but not mandatory."]
+        },
+        {"tag": "Type of Project",
+         "patterns": ["What kind of projects will interns work on?","What kind of projects will I be working on as an intern?"],
+         "responses": ["Interns will work on real-world projects that match their skills and interests. Projects may include web development, data analysis, digital marketing, or other relevant tasks."]
+        },
+        {"tag": "Mentor",
+         "patterns": ["Will there be mentorship during the internship?"],
+         "responses": ["Yes, each intern will be assigned a mentor who will provide guidance and support throughout the internship."]
+        },
+        {"tag": "Fees",
+         "patterns": ["Is there any fees for the internship?"],
+         "responses": ["The internship is completely free. However certification fees of Rs 89 have to be paid to cover the documentation expenses."]
+        },
+        {"tag": "Part Time",
+         "patterns": ["Can I work on the internship part-time?"],
+         "responses": ["Yes, the internship is flexible and can be tailored to fit your schedule, allowing for part-time or full-time participation."]
+        },
+        {"tag": "Hours",
+         "patterns": ["What are the working hours for the internship?"],
+         "responses": ["Working hours are flexible and can be adjusted to fit your personal schedule. Typically, interns are expected to commit to a minimum of 10 hours per week."]
+        },
+        {"tag": "Evaluation",
+         "patterns": ["Will there be a final evaluation at the end of the internship?"],
+         "responses": ["Yes, there will be a final evaluation to assess your performance and provide feedback for future improvement."]
+        },
+        {"tag": "credit",
+         "patterns": ["Can I receive college credit for this internship?"],
+         "responses": ["We can provide documentation and support if your college or university offers credit for internships."]
+        },
+        {"tag": "international",
+         "patterns": ["Are international students eligible to apply?","Can international students apply for the internship?"],
+         "responses": ["Yes, our virtual internship program is open to students from all over the world."]
+        },
+        {"tag": "Process",
+         "patterns": ["What is the application process for the internship?","How can I apply for an internship at ByteUprise?"],
+         "responses": ["You can apply for an internship at ByteUprise by visiting our website and filling out the application form under the Careers section, , followed by an interview with our team."]
+        },
+        {"tag": "benefits",
+         "patterns": ["What benefits will I gain from this internship?","What are the benefits of interning at ByteUprise?"],
+         "responses": ["Interns will gain practical experience, enhance their technical skills, develop professional networks, and improve their resume."]
+        },
+        {"tag": "meeting",
+         "patterns": ["Will I be able to interact with other interns?"],
+         "responses": ["Yes, we encourage collaboration and networking among interns through group projects and regular meetings."]
+        },
+        {"tag": "notification",
+         "patterns": ["How will I be notified if I am selected for the internship?"],
+         "responses": ["Selected candidates will receive an offer letter via email."]
+        },
+        {"tag": "dress code",
+         "patterns": ["Is there a dress code for the virtual internship?"],
+         "responses": ["There is no formal dress code for the virtual internship, but we encourage professional attire during video meetings."]
+        },
+        {"tag": "what",
+         "patterns": ["What is ByteUprise?"],
+         "responses": ["ByteUprise is a dynamic tech company focused on providing innovative solutions in web development, digital marketing, and tech education through internships and training."]
+        },
+        {"tag": "services",
+         "patterns": ["What services does ByteUprise offer?"],
+         "responses": ["ByteUprise offers web development, digital marketing, tech consulting, and comprehensive internship programs in various tech domains."]
+        },
+        {"tag": "contact",
+         "patterns": ["Who can I contact for more information about the internship?","How can I contact ByteUprise for partnership opportunities?"],
+         "responses": ["For more information about our internships/partnerships, you can contact us at info@byteuprise.com or call us at 7263020556."]
+        },
+        {"tag": "support",
+         "patterns": ["What kind of support will I receive during the internship?"],
+         "responses": ["You'll receive mentorship, access to learning resources, and regular feedback to help you grow and succeed during your internship."]
+        },
+        {"tag": "training",
+         "patterns": ["Does ByteUprise offer any training programs?"],
+         "responses": ["Yes, ByteUprise offers various training programs in web development, digital marketing, and other tech domains."]
+        },
+        {"tag": "startup",
+         "patterns": ["Can ByteUprise help me with my startup idea?"],
+         "responses": ["Yes, we offer consulting services to help you develop and launch your startup idea."]
+        },
+        {"tag": "jobbyte",
+         "patterns": ["Are there any job openings at ByteUprise?"],
+         "responses": ["Please visit our Careers section on our website to see current job openings and apply."]
+        },
+        {"tag": "demo",
+         "patterns": ["How can I request a demo of ByteUprise's services?"],
+         "responses": ["To request a demo, please contact us at info@byteuprise.com or call us at 7263020556."]
+        },
+        {"tag": "core values",
+         "patterns": ["What are the core values of ByteUprise?"],
+         "responses": ["Our core values include innovation, integrity, excellence, and community."]
+        },
+        {"tag": "security",
+         "patterns": ["How does ByteUprise ensure data privacy and security?"],
+         "responses": ["We adhere to strict data privacy and security protocols to protect our clients' information and ensure compliance with relevant regulations."]
+        },
+        {"tag": "mission",
+         "patterns": ["What is the mission of ByteUprise?"],
+         "responses": ["Our mission is to empower individuals and businesses through innovative tech solutions and comprehensive education programs."]
+        },
+        {"tag": "community",
+         "patterns": ["How can I join the ByteUprise community?"],
+         "responses": ["Join our community by following us on social media, participating in our events, and subscribing to our newsletter."]
+        },
+        {"tag": "involvement",
+         "patterns": ["How can I get involved with ByteUprise's projects?"],
+         "responses": ["You can get involved by applying for internships, volunteering, or collaborating with us on specific projects."]
+        },
+        {"tag": "working hours",
+         "patterns": ["What are the working hours at ByteUprise?"],
+         "responses": ["Our standard working hours are 9 AM to 6 PM, Monday to Friday."]
+        },
+        {"tag": "payment",
+         "patterns": ["What payment methods does ByteUprise accept?"],
+         "responses": ["We accept various payment methods, including credit/debit cards, bank transfers, and online payment platforms."]
+        },
+        {"tag": "newsletter",
+         "patterns": ["How can I subscribe to ByteUprise's newsletter?"],
+         "responses": ["Subscribe to our newsletter by entering your email address in the subscription form on our website."]
+        },
+        {"tag": "testimonial",
+         "patterns": ["Where can I find case studies or testimonials about ByteUprise's work?"],
+         "responses": ["Case studies and testimonials are available on our website under the About Us or Testimonials sections."]
+        },
+        {"tag": "contact2",
+         "patterns": ["How does ByteUprise handle customer support?"],
+         "responses": ["We offer customer support through email, phone, and our online helpdesk to assist with any queries or issues."]
+        },
+        {"tag": "visit",
+         "patterns": ["Can I schedule a visit to ByteUprise's office?"],
+         "responses": ["Currently, all our operations are virtual, but you can schedule a virtual meeting or consultation with us."]
+        },
+        {"tag": "cancellation",
+         "patterns": ["How can I cancel my subscription with ByteUprise?"],
+         "responses": ["To cancel your subscription, please contact our support team at info@byteuprise.com."]
+        },
+        {"tag": "refund",
+         "patterns": ["What is the refund policy at ByteUprise?"],
+         "responses": ["Our refund policy is outlined on our website. Please refer to it for detailed information or contact our support team."]
+        },
+        {"tag": "custom",
+         "patterns": ["Does ByteUprise offer custom software development?"],
+         "responses": ["Yes, we offer custom software development tailored to meet your specific business needs and objectives."]
+        },
+        {"tag": "affilate",
+         "patterns": ["How can I join ByteUprise's affiliate program?"],
+         "responses": ["For details on joining our affiliate program, please contact us at info@byteuprise.com."]
+        },
+        {"tag": "coding",
+         "patterns": ["What coding languages are supported by ByteUprise's services?"],
+         "responses": ["We support various programming languages, including JavaScript, Python, Java, and more, depending on the service or project requirements."]
+        },
+        {"tag": "app",
+         "patterns": ["How can I download ByteUprise's mobile app?"],
+         "responses": ["Information about our mobile app will be available on our website. Stay tuned for updates on its release."]
+        },
+        {"tag": "query2",
+         "patterns": ["Why Byteuprise Internship?"],
+         "responses":["Because we have following, MSME Certified, Engaging Experiences, Expert Guidance, Community-Centric Approach, International Interns, Placements, Lives Projects"]
+        }
+    ]
+}
